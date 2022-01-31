@@ -111,6 +111,9 @@ vendor/lib64/soundfx/libqcbassboost.so|8d14a19bff32a4d5f19b998076e7b6ee46787cdc
 vendor/lib64/soundfx/libqcreverb.so|f0b4ffbd5ad1c3031b2cf1cea96521bc87ce2d23
 vendor/lib64/soundfx/libqcvirt.so|09f90491a8ec67db467579a5dd6ef6a8b83723d6
 
+# Audio FX modules - from ginkgo MIUI V12.0.1.0.RCOCNXM
+vendor/lib/soundfx/libmisoundfx.so|b96beb7c9aaded46a15bdbe8079b84d2beec9911
+
 # Audio-ACDB
 vendor/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb
 vendor/etc/acdbdata/MTP/MTP_General_cal.acdb
@@ -1306,10 +1309,11 @@ vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_its.so|038
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_preview_3a_sn.so|8f3fe1604ab4b7dad29df739d65b8ea1f3a529f1
 vendor/lib/libchromatix_lavender_s5kgm1_sunny_india_ii_zsl_video_3a.so|8b8c0ec593387be2f433701b795fed87167d394f
 
-# Dirac - from Xiaomi
-vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
+# Dirac - from jasmine V11.0.23.0.QDIMIXM
+vendor/etc/diracmobile.config|88fa19095df9e256f0af510df266f749bf60e258
+vendor/etc/diracvdd.bin|f9b07ace60490649c44411504909c7bf8bc73d59
 vendor/lib/libDiracAPI_SHARED.so|42b49679d38eca93fead05ea06ddbdc8108fd4b1
-vendor/etc/diracmobile.config|d781cd6798a7481a8f7128d144abfb2b8794212d
+vendor/lib/soundfx/libdirac.so|f63826a905b520fa524e4c1b147be7cf65240953
 
 # Display-calibration
 vendor/etc/qdcm_calib_data_boe_td4320_fhdplus_video_mode_dsi_panel.xml
