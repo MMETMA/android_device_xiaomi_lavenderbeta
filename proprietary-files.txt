@@ -1816,22 +1816,21 @@ vendor/lib64/lib-imsvtcore.so|47d945bf976134fdb57b4f44dd73a1347f2bf421
 vendor/etc/sensors/elliptic.conf|fd6193dd8ec39f85948151a83a14690c228121b9
 vendor/etc/sensors/sensor_def_qcomdev.conf|3ce1145d65ade70300feadf971e69ad6f522a749
 
-# Sensors - from LA.UM.8.2.r1-06700-sdm660.0
-product/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|bda110fc8102be6f88bd0e364819d15d9c0c3744
-product/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|67620ca191213b83e898ee401807eb8385b0020d
-vendor/bin/sensors.qti|0dee19d3b3d3b4c1dae65fd8206eb5af17fa3866
-vendor/lib/hw/activity_recognition.sdm660.so|47c588e1bdb357f31721171dc1d6a781c743bd64
-vendor/lib/libsensor1.so|b1b0dcb45432e51fabffe595010f35a017c7a3fd
-vendor/lib/libsensor_reg.so|170c40b9b7d48c922cd3ca1a552a34311ee79799
-vendor/lib/sensor_calibrate.so|9f81f1bf43b7871555915c9d57bba16d0419af40
-vendor/lib64/hw/activity_recognition.sdm660.so|d7dac1daafb812625094f5e85097c00fdc385da1
-vendor/lib64/libsensor1.so|dac9d5fb1b5aacfa5bedf812ebdd04eadd0af2dc
-vendor/lib64/libsensor_reg.so|be00c924983a2a279f799332cf2b262da9af78d1
-vendor/lib64/sensor_calibrate.so|dacb7a77e1713a756a43c082329e9f42e2c0d40e
-
-# Sensors - from lavender-user-10-QKQ1.190910.002-V12.5.3.0.QFGMIXM-release-keys
-vendor/lib/sensors.ssc.so|1c37ad46b43cd81024dd41243c949a24dd2d9f86
-vendor/lib64/sensors.ssc.so|fe650649184fd43dcfa90776395fe0680d972a7c
+# Sensors - from ddv_sprout-m690-user-11-RKQ1.210607.001-00WW_3_440-release-keys
+-system_ext/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar|01d8f70b5687082dd9d19beca565a789d404837c
+system_ext/lib/vendor.qti.hardware.sensorscalibrate@1.0.so|5ce25016e9dc0330ac1fdf2a27c87149026181f9
+system_ext/lib64/vendor.qti.hardware.sensorscalibrate@1.0.so|c69108a5df9cbce547b7d2b5605357ac37a8b916
+vendor/bin/sensors.qti|e5ec774f64a234c3ca5f4dc185d7c774b8cd8947
+vendor/lib/hw/activity_recognition.sdm660.so|bc795e645efed6c3df06150d2a23d87426215141
+vendor/lib/libsensor1.so|cba471933ef176cfcfe23515deb8b6130ff5e82d
+vendor/lib/libsensor_reg.so|e77b6309866e55281b0f8220df3d2498be84ab98
+vendor/lib/sensor_calibrate.so|27580bc82e789946f245d63258dc378710e84234
+vendor/lib/sensors.ssc.so|ca9b375b92122fdec84db63151bb6bd119cadb42
+vendor/lib64/hw/activity_recognition.sdm660.so|159816cdbdadbc02ca50c937567622f693bc87c5
+vendor/lib64/libsensor1.so|cadb09930a9fdf37f0b76391a0ae2999f97cef0d
+vendor/lib64/libsensor_reg.so|1c15b0c0a58ce8846fd27efd58a13ae38c54971c
+vendor/lib64/sensor_calibrate.so|8bb6e3860d2d5dec641f23e567e184172290a7c2
+vendor/lib64/sensors.ssc.so|13e4c4264c5ef77339bc86640f2589186b3bb096
 
 # Thermal - from lavender-user 10 QKQ1.190910.002 V11.0.1.0.QFGMIXM release-keys
 vendor/etc/thermal-engine-camera.conf|db9829a655ca0c3013448e6a4aee3fcce9f90ca2
