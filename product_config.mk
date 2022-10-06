@@ -1,4 +1,4 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/evolution_lavender.mk
+    $(LOCAL_DIR)/lineage_lavender.mk
 
-COMMON_LUNCH_CHOICES := evolution_lavender-userdebug
+COMMON_LUNCH_CHOICES := lineage_lavender-userdebug
