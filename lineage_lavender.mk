@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2020-2021 The LineageOS Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,34 +8,14 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common riceDroid stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
-# maintainer flag
-RICE_MAINTAINER := Apex_Not_Legend
-
-# chipset flag
-RICE_CHIPSET := sdm660
-
-# gapps build flag, if not defined build type is vanilla
-WITH_GMS := false
-
-# Sushi Bootanimation
-SUSHI_BOOTANIMATION := 1080
-
-# Graphene Camera
-TARGET_BUILD_GRAPHENEOS_CAMERA := true
-
-# disable/enable blur support, default is false
-TARGET_ENABLE_BLUR := true
-
-# UDFPS ICONS/ANIMATIONS
-TARGET_HAS_UDFPS := false
-
-# Quick tap feature
 TARGET_SUPPORTS_QUICK_TAP := true
-
-# Face Unlock
 TARGET_FACE_UNLOCK_SUPPORTED := true
+RICE_MAINTAINER := Apex_Not_Legend
+RICE_CHIPSET := Snapdragon660
+TARGET_ENABLE_BLUR := true
+WITH_GMS := false
 
 # Memory properties
 # Tune these properties according to device perfconfigstore.xml(if available)/device capabilities.
@@ -53,7 +33,6 @@ PRODUCT_PRODUCT_PROPERTIES += \
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
-$(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_lavender
