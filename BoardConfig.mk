@@ -55,6 +55,10 @@ TARGET_KERNEL_CLANG_COMPILE := true
 TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_LLVM_BINUTILS := false
 
+# Additional Kernel Flags
+TARGET_KERNEL_ADDITIONAL_FLAGS +=
+HOSTCFLAGS="-fuse-ld=lld -Wno-unused-command-line-argument" LLVM=1 LLVM_IAS=1
+
 # Platform
 TARGET_BOARD_PLATFORM := sdm660
 
