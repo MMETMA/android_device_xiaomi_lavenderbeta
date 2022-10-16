@@ -45,4 +45,4 @@ debug.mdpcomp.logs=0
 profiler.debugmonitor=false
 profiler.launch=false
 logcat.live=disable
-    persist.camera.debug.logfile=0
+persist.camera.debug.logfile=0
