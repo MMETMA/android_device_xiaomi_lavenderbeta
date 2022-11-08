@@ -1,4 +1,4 @@
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/cherish_lavender.mk
+    $(LOCAL_DIR)/aosp_lavender.mk
 
-COMMON_LUNCH_CHOICES := cherish_lavender-userdebug
+COMMON_LUNCH_CHOICES := aosp_lavender-userdebug
