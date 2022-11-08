@@ -1,5 +1,5 @@
 #
-# Copyright (C) 2019 The LineageOS Project
+# Copyright (C) 2020-2021 The aosp Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
@@ -8,15 +8,25 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common PixelExperience stuff
+# Inherit some common aosp Stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
-TARGET_BOOT_ANIMATION_RES := 1080
-TARGET_SUPPORTS_QUICK_TAP := true
-TARGET_FACE_UNLOCK_SUPPORTED := true
+
 
 # Inherit from lavender device
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 $(call inherit-product, $(LOCAL_PATH)/device-hidl.mk)
+
+# Bootanimation
+TARGET_BOOT_ANIMATION_RES := 720
+
+# aosp Stuff with GApps
+TARGET_SUPPORTS_GOOGLE_RECORDER := false
+TARGET_BUILD_GRAPHENEOS_CAMERA := false
+TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_BOOT_ANIMATION_RES := 720
+TARGET_ENABLE_BLUR := true
+WITH_GMS := true
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := aosp_lavender
